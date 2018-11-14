@@ -1,12 +1,11 @@
 /*----MAIM PARM----*/
-html{
-    z-index: -10;
-}
 body{
     font-family: 'Lato', 'sans-serif' !important;
     background-color: #f2f4f4;  
     -webkit-font-smoothing: subpixel-antialiased;
-    overflow-x: hidden !important;
+    width:100%;
+    height:100%;
+    margin: 0px;
     }
 h1{
         size: 30pt;

@@ -3,6 +3,7 @@ body{
     font-family: 'Lato', 'sans-serif' !important;
     background-color: #f2f4f4;  
     -webkit-font-smoothing: subpixel-antialiased;
+    overflow-x: hidden !important;
     }
 h1{
         size: 30pt;

@@ -1,4 +1,7 @@
 /*----MAIM PARM----*/
+html{
+    z-index: -10;
+}
 body{
     font-family: 'Lato', 'sans-serif' !important;
     background-color: #f2f4f4;  

@@ -1,0 +1,279 @@
+/*----MAIM PARM----*/
+body{
+    font-family: 'Lato', 'sans-serif' !important;
+    background-color: #f2f4f4;  
+    -webkit-font-smoothing: subpixel-antialiased;
+    }
+h1{
+        size: 30pt;
+        color: #7a9095;
+}
+p{
+        font-size: 17pt;
+        color: #333333;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+hr {
+    border: none; /* Убираем границу */
+    background-color:#7a9095; /* Цвет линии */
+    color: #7a9095; /* Цвет линии для IE6-7 */
+    height: 20px; /* Толщина линии */
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+   }
+   
+/*----navbar----*/
+.navbar .navbar-toggle .icon-bar {
+    background-color: #fff !important;
+}  
+.navbar.navbar-fixed-top{
+    background-color: none;
+    border-width: 0px;
+    background-image: url(images/Home/line\ for\ menu.png);
+    background-size: 100%; 
+    padding-left: 3%; 
+    padding-top: 1% ;
+
+}
+.navbar.navbar-fixed-top container-fluid{
+margin-right: 0px;
+margin-left: 0px;
+}
+.nav.navbar-nav>li>a>b
+{
+    color: #ffffff;
+}
+.nav.navbar-nav>li>a:focus , .nav.navbar-nav>li>a:hover
+{
+    background-color:transparent;
+}
+.navbar-brand{
+    background-image: url(images/Home/Logo.svg) ;
+    min-width: 150px;
+    min-height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+/*----header----*/
+.HeaderHome{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;  
+    background-image: url(images/Home/SVG/Building\ Ideas.svg)  ;
+
+}   
+/*----Plits----*/
+.block2>div>div>a>h2{
+    font-size: 20pt;
+    color:#ffffff;
+}
+.block2{
+    background-image: url(images/Home/IMGservicos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top:10px;  
+    
+}
+.block2>div>div{
+    text-align: center;  
+    position: relative;
+}   
+.block2>div{
+    display: flex;
+    justify-content: center;
+}
+ .block2>div>div>a{
+    text-decoration: none;
+}
+.block2>div>div>a>img{
+    padding-top:5%;
+    width: auto;
+    height: auto;
+    max-width: 50px; 
+    max-height: 50px; 
+}
+.zoom {
+    transition: transform .2s; /* Animation */
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/*----Agencia de Design, Software e Marketing----*/
+.block3>div>div>p{    
+    padding-left: 20%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+.block3>div>div>img
+{
+    width: 100%;
+    height: 100%;
+}
+.par1{
+   margin-top: 10%; 
+}
+.block3>div>div>p{
+    font-size: 17px;
+    margin-top: 5%;
+}
+.block3>div
+{
+    display: flex;
+    flex-direction: row;   
+}
+.block3>div>div{
+    background-color: #fff;
+}
+/*----2 buttons----*/
+.block4
+{
+    background-image: url(images/Home/line\ for\ home.png);
+    padding: 4%;
+    text-align: center;
+    display:flex; 
+    justify-content:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.block4{
+    display:flex;
+    justify-content:center;
+}
+.block4>button
+{
+    border: 3px solid rgb(255, 255, 255);
+    background: none;
+    border-radius: 4px;
+    margin: 25px;
+    width: 100%;    
+}
+
+.block4>button>h1
+{
+    color: white;
+}
+/*----cookiest etc.----*/
+.block5{
+    background-color: #2a2f30;
+    padding:3px;
+    padding-bottom: 3%;padding-left: 5%;
+    padding-top: 2%;   
+}
+.block5>p>a{
+    color: rgb(212, 209, 209);
+    font-size: 10pt;    
+    text-decoration: none;
+}
+.block5>p{
+    height: 20px;
+    padding: 0%;        
+    margin: 0;  
+}
+/*----social bar----*/
+.block6{
+    background-color: #0e0f0f;
+}
+.row.block6>div>img{ 
+    height: 70px;
+    widows: 100px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.row.block6>div{ 
+     color:#7a9095;
+     padding-right: 10%; 
+}
+
+.social>a{
+    float: right;  
+    text-decoration: none;
+    padding: 5px;
+    padding-top:25px;
+}  
+.social>a>img{
+    width: 20px;
+    height: 20px;
+}  
+
+/*----Chat----*/      
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    z-index: 9;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}

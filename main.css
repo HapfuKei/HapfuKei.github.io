@@ -201,6 +201,9 @@ margin-left: 0px;
 #test{
 text-align: right;
 }
+.social{
+    padding-top: 1%;
+}
 .social>a{
     text-decoration: none;
     padding: 5px;

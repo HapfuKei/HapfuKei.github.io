@@ -73,11 +73,11 @@ margin-left: 0px;
 }   
 /*----Plits----*/
 .block2>div>div>a>h2{
-    font-size: 20pt;
+    font-size: 15pt;
     color:#ffffff;
     width: auto;
     height: auto;
-    word-wrap: break-word;
+    ышя
 }
 .block2{
     background-image: url(images/Home/IMGservicos.png);
@@ -185,20 +185,24 @@ margin-left: 0px;
 /*----social bar----*/
 .block6{
     background-color: #0e0f0f;
+    text-align: center;
 }
-.row.block6>div>img{ 
+.row.block6>div>div>img{ 
     height: 70px;
     widows: 100px;
     padding-top:5px;
     padding-bottom: 5px;
 }
-.row.block6>div{ 
+.row.block6>div>div{ 
      color:#7a9095;
      padding-right: 10%; 
-}
 
+}
+#test{
+text-align: right;
+}
 .social>a{
-    float: right;  
+ 
     text-decoration: none;
     padding: 5px;
     padding-top:25px;

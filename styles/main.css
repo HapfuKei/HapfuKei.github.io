@@ -36,7 +36,7 @@ hr {
 .navbar.navbar-fixed-top{
     background-color: none;
     border-width: 0px;
-    background-image: url(/hapfukei.github.io/images/Home/line\ for\ menu.png);
+    background-image: url(../images/Home/lineForMenu.png);
     background-size: 100%; 
     padding-left: 3%; 
     padding-top: 1% ;
@@ -55,7 +55,7 @@ margin-left: 0px;
     background-color:transparent;
 }
 .navbar-brand{
-    background-image: url(/hapfukei.github.io/images/Home/Logo.svg) ;
+    background-image: url(../images/Home/Logo.svg) ;
     min-width: 150px;
     min-height: 70px;
     background-position: center;
@@ -68,7 +68,7 @@ margin-left: 0px;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;  
-    background-image: url(/hapfukei.github.io/images/Home/SVG/Building\ Ideas.svg)  ;
+    background-image: url(../Home/SVG/BuildingIdeas.svg)  ;
 
 }   
 /*----Plits----*/
@@ -79,7 +79,7 @@ margin-left: 0px;
     height: auto;
 }
 .block2{
-    background-image: url(/hapfukei.github.io/images/Home/IMGservicos.png);
+    background-image: url(../images/Home/IMGservicos.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size:cover;
@@ -141,7 +141,7 @@ margin-left: 0px;
 /*----2 buttons----*/
 .block4
 {
-    background-image: url(/hapfukei.github.io/images/Home/line\ for\ home.png);
+    background-image: url(../images/Home/lineForHome.png);
     padding: 4%;
     text-align: center;
     background-repeat: no-repeat;

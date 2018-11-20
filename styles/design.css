@@ -14,13 +14,15 @@
     background-size:cover;
     padding:8%;   
     padding-bottom: 0%;
+    padding-top: 0%;
     
 }
 .block2>div>div>div{
     text-align: center;  
     position: relative;
+    padding-top: 8%;
 }  
- .block2>div>Div>div{
+ .block2>div>div>div{
     text-decoration: none;
 }
 .block2>div>div>div>img{
@@ -44,6 +46,7 @@
 .block2>div>div>div>h3>p{
     font-size: 14pt;
     color:#7a9095;
+    text-align: center;
 }
 
 /*----About----*/

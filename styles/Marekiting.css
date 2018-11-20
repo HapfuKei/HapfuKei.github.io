@@ -74,18 +74,17 @@
 .block2>div{
     font-size: 18px;
 }
-.block2>div>div>div>a>li{
+.block2>div>div>div>li{
     color: white;
     font-weight: bold;
 }
 .block2{
-    background-image: url(../images/Marketing/Markservic.png);
-    
+    background-image: url(../images/Marketing/Markservic.png); 
     padding-top:10px;   
     margin-bottom: 100px;
     padding-bottom: 40px;
     padding-top: 40px;
-    background-size: contain;
+    width: 100%;
     
     
 }

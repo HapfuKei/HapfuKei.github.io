@@ -1,0 +1,39 @@
+.block3>div>div>p{
+    font-size: 17px;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    margin-bottom: 0%;
+}
+.block3>div>div>h1{
+    font-size: 34px;
+}
+.block3lasttext>div{
+    padding: 0%;
+    background-color: #f2f4f4; 
+}
+.imgsloto{
+    padding: 0;
+}
+.textblock3>p{
+    font-size: 13px;
+}
+.textblock3>h1{
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.one {
+    order: 1;
+  }
+  .two {
+    order: 2;
+  }
+  @media (max-width: 770px) {
+    .one {
+      order: 2;
+    }
+    .two {
+      order: 1;
+    }
+  }

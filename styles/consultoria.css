@@ -1,0 +1,29 @@
+.vegetables{
+    background-image: url(../images/Consultoria/vantagen_background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+}
+.vegetables>p{
+    padding-left: 20%;
+    color:#ffff;
+}
+@media(max-width: 801px){
+    .vegetables>p{
+        padding-left: 5%;
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+/*----About----*/
+#about{
+    padding-bottom: 20px;
+}
+.par1{
+padding-top: 0%;
+margin-top: 0%;
+}
+h1{
+    margin-bottom: 0%;
+}

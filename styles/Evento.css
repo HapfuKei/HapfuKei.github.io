@@ -1,0 +1,60 @@
+.block3>div>div>p{
+    font-size: 17px;
+    margin-top: 5%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1%;
+    margin-bottom: 0%;
+}
+#imgplates1{
+    background-image: url(../images/Marketing/m1.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+
+}
+#imgplates2{
+    background-image: url(../images/Marketing/m2.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+#imgplates3{
+    background-image: url(../images/Marketing/m3.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+#imgplates4{
+    background-image: url(../images/Marketing/m4.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+@media (max-width: 990px){
+    .col-centered{
+        float: none;
+        margin: 0 auto;
+        font-size: 20px;
+        visibility: visible;
+        }
+    }
+    .adwtext{
+        font-size: 13px;
+        color: white;
+    }
+    .allblock4plates>div>div{
+        margin-bottom: 100px
+    }
+    .block4{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }

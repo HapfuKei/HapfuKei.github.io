@@ -1,0 +1,199 @@
+
+
+    .block3>div>div>p{
+        font-size: 17px;
+        margin-top: 5%;
+        padding-left: 0%;
+        padding-right: 0;
+        padding-bottom: 1%;
+        margin-bottom: 0%;
+    }
+    .block3>div{
+        padding: 0%;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        
+    
+    }
+    .webmarktitle{
+        padding: 0%;
+        background-color: #f2f4f4; 
+    }
+    .block3all{
+        background-color: #f2f4f4; 
+    
+    }
+    /* block3 cols*/
+    #blockmarkmenu{
+        padding: 0%;
+    }
+    
+    .blockplates1{
+        padding-left: 0%;
+        padding-right: 0%;
+    
+    }.blockplates2{
+        padding-left: 0%;
+        padding-right: 0%;
+        
+    }.blockplates3{
+        padding-left: 0%;
+        padding-right: 0%;
+        
+    }
+    
+    .imagesplatess>div{
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    #imgplates1{
+        background-image: url(../images/Marketing/m1.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+    #imgplates2{
+        background-image: url(../images/Marketing/m2.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #imgplates3{
+        background-image: url(../images/Marketing/m3.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #imgplates4{
+        background-image: url(../images/Marketing/m4.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #imgplates5{
+        background-image: url(../images/Marketing/m5.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #imgplates6{
+        background-image: url(../images/Marketing/m6.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #imgplates7{
+        background-image: url(../images/Marketing/m7.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #imgplates8{
+        background-image: url(../images/Marketing/m8.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #imgplates9{
+        background-image: url(../images/Marketing/m9.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #imgplates10{
+        background-image: url(../images/Marketing/m10.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #imgplates11{
+        background-image: url(../images/Marketing/m11.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #imgplates12{
+        background-image: url(../images/Marketing/m12.png);
+        width: 200px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .textplate{
+        color:#f2f4f4;
+      
+        text-align: center;
+        font-weight: bold;
+    }
+    @media (max-width: 990px){
+    .col-centered{
+        float: none;
+        margin: 0 auto;
+        font-size: 20px;
+        }
+    }
+    .adwtext{
+        font-size: 13px;
+        color: white;
+    }
+    .bottomplatestext{
+        background-color: #f2f4f4;
+    }
+    .bottomplatestext>div{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .blockplates{
+        background-color: #f2f4f4;
+    }
+    .allblock4plates{
+        background-color: #f2f4f4; 
+    }
+    .zoom{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .block2{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .block2>div{
+        font-size: 18px;
+    }
+
+    .block2{
+        background-image: url(../images/Marketing/Markservic.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding-top:10px;   
+        margin-bottom: 100px;
+        
+    }
+    .block3text{
+        margin-bottom: 100px;
+    }
+    .col-centered1{
+        float: none;
+        margin: 0 auto;
+        }
+    

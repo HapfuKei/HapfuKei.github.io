@@ -71,10 +71,6 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.block2{
-    padding-bottom: 40px;
-    padding-top: 40px;
-}
 .block2>div{
     font-size: 18px;
 }
@@ -84,11 +80,13 @@
 }
 .block2{
     background-image: url(../images/Marketing/Markservic.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size:cover;
+    
     padding-top:10px;   
     margin-bottom: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-size: contain;
+    
     
 }
 

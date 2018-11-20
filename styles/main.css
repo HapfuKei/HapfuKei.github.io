@@ -1,8 +1,5 @@
 
-#navtoplinks{
-    color: white;
-    font-family: orbitron;
-}
+
 #Togbutton{
     width: 30px;
     height: 30px;
@@ -74,6 +71,10 @@ margin-left: 0px;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 9;
+}
+.nav-link.disabled{
+    color: white;
+    font-family: orbitron;
 }
 /*----header----*/
  

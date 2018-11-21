@@ -6,39 +6,23 @@
     padding-bottom: 1%;
     margin-bottom: 0%;
 }
-#imgplates1{
-    background-image: url(../images/Marketing/m1.png);
-    width: 200px;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
+/*----Plits-----*/
+.plitsEv>div>img{
+    width: 100%;
+    height: 100%;;
+}
+.plitsEv>div{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+.plitsEv>div>h2{
+   text-align: center;
+   position: fixed;
+   color: white;
+}
 
-}
-#imgplates2{
-    background-image: url(../images/Marketing/m2.png);
-    width: 200px;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-}
-#imgplates3{
-    background-image: url(../images/Marketing/m3.png);
-    width: 200px;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-}
-#imgplates4{
-    background-image: url(../images/Marketing/m4.png);
-    width: 200px;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-}
+/*------------------*/
 @media (max-width: 990px){
     .col-centered{
         float: none;

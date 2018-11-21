@@ -27,22 +27,57 @@
 
 
 <div> <!--Chat-->
-    <button id="aside1" class="open-button" onclick="openForm()">Converse connosco</button>
+    <button id="aside1" class="open-button" onclick="openForm()">
+            <div class="topchat"> <img src="../hapfukei.github.io/images/Home/SVG/Chat.svg" alt="">
+                <p>Converse connosco e exponha as suas questões</p>
+            </div>
+        </button>
 
-    <div class="chat-popup" id="myForm">
-      <form action="/action_page.php" class="form-container">
-        <h1>Chat</h1>
-    
-        <label for="msg"><b>Message</b></label>
-        <textarea placeholder="Type message.." name="msg" required></textarea>
-    
-        <button type="submit" class="btn">Send</button>
-        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-      </form>
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <button class="topchatbtn" type="button" onclick="closeForm()">
+                <div class="topchat" > <img src="../hapfukei.github.io/images/Home/SVG/Chat.svg" alt="">
+                    <p>Converse connosco e exponha as suas questões</p>
+                </div>
+            </Button>
+
+
+
+                <div class="allmessages">
+                    <div class="container1">
+                        <p>Hello. How are you today?</p>
+
+                    </div>
+
+                    <div class="container1 darker">
+                        <p>Hey! I'm fine. Thanks for asking!</p>
+
+                    </div>
+
+                    <div class="container1">
+                        <p>Sweet! So, what do you wanna do today?</p>
+
+                    </div>
+
+                    <div class="container1 darker">
+                        <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
+
+                    </div>
+                </div>
+
+
+                <hr style="height: 2px ;background-color: #7a9095">
+                <!--<label for="msg"><b>Message</b></label>-->
+                <textarea id="messagetext" name="msg" required></textarea>
+
+                <button type="submit" class="btn">Eviar</button>
+
+            </form>
+        </div>
     </div>
     
     
-</div>
+
 
 
 <!--navbar-->
@@ -199,7 +234,12 @@
         <p><a href="#">Politica de Sustentabilidade </a></p>
     </div>
     <hr>
-    
+    <div class="row backtotp">
+   
+            <a href="#"><img src="images/Home/SVG/back_to_top.svg" alt=""></a>
+       
+    </div>
+        
     <div class="block6 row" style="text-align:center;"><!-- socila and policy-->
         <div class="col-md-2 col-sm-4 col-xs-4"><img src="images/Home/Logo.svg" alt=""></div> 
         <div class="col-md-8 col-sm-4 col-xs-4" id="copyraight">© todos os direitos reservados</div>

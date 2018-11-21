@@ -33,7 +33,29 @@
     color: #ffffff;
     font-size: 30pt;
     padding: 10px;
+    
 }
+.plits>div>h4{
+    position: absolute;
+	top	: 60px;
+	left: 20px;
+    width: 100%;
+    color: #ffffff;
+    padding: 10px;
+    transition: opacity .5s;
+    opacity:0;
+}
+.plits>div:hover>h4{
+    position: absolute;
+	top	: 60px;
+	left: 20px;
+    width: 100%;
+    color: #ffffff;
+    padding: 10px;
+    opacity:1   ;
+
+}
+
 .plits>div>h3{
     color: #ffffff;
     font-size: 20pt;

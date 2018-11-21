@@ -7,70 +7,41 @@
     margin-bottom: 0%;
 }
 /*----Plits-----*/
-.plitsEv>div>img{
-    width: 100%;
-    height: 100%;;
-}
 .plitsEv>div{
     margin: 0%;
     padding: 0%;
     text-align: center;
+    width: 100%;
+    height: 100%; 
+    background-repeat: no-repeat; 
+    
 }
- .slideRight{
-    animation-name: slideRight;
-    -webkit-animation-name: slideRight; 
- 
-    animation-duration: 2s; 
-    -webkit-animation-duration: 2s;
- 
-    animation-timing-function: ease-in-out; 
-    -webkit-animation-timing-function: ease-in-out;     
- 
-    visibility: visible !important; 
+.plitsEv{
+    width: 100%;
+    height: 100%;  
 }
- 
-@keyframes slideRight {
-    0% {
-        transform: translateX(-150%);
-    }
-    50%{
-        transform: translateX(8%);
-    }
-    65%{
-        transform: translateX(-4%);
-    }
-    80%{
-        transform: translateX(4%);
-    }
-    95%{
-        transform: translateX(-2%);
-    }           
-    100% {
-        transform: translateX(0%);
-    }   
+.plitsEv>div>h2{
+    text-align: center;
+    color: white;
+    margin: 30%; 
+ }
+/*---Plits img -----*/
+#plitsImg1{
+    background-image: url(../images/Evento/eve1.png);
+    background-size: 100%;
 }
- 
-@-webkit-keyframes slideRight {
-    0% {
-        -webkit-transform: translateX(-150%);
-    }
-    50%{
-        -webkit-transform: translateX(8%);
-    }
-    65%{
-        -webkit-transform: translateX(-4%);
-    }
-    80%{
-        -webkit-transform: translateX(4%);
-    }
-    95%{
-        -webkit-transform: translateX(-2%);
-    }           
-    100% {
-        -webkit-transform: translateX(0%);
-    }
+#plitsImg2{
+    background-image: url(../images/Evento/eve2.png);
+    background-size: 100%;
 }
-
+#plitsImg3{
+    background-image: url(../images/Evento/eve3.png);
+    background-size: 100%;
+}
+#plitsImg4{
+    background-image: url(../images/Evento/eve4.png);
+    background-size: 100%;
+}
 /*------------------*/
 @media (max-width: 990px){
     .col-centered{

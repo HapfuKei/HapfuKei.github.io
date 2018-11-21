@@ -44,106 +44,56 @@
         
     }
     
-    .imagesplatess>div{
-        padding-left: 0%;
-        padding-right: 0%;
-        padding-top: 0%;
-        padding-bottom: 0%;
-        margin-top: 0%;
-        margin-bottom: 0%;
-    }
-    #imgplates1{
-        background-image: url(../images/Marketing/m1.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
+   /*  PLITS  */
+.plits>div{
+    padding: 0%;
+    margin: 0%;
+}
+.plits>div>img{
+    width: 100%;
+    height: auto;
+    opacity:0.8;
+
+}
+.plits>div>h2{
+    position: absolute;
+	top	: 20px;
+	left: 20px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 30pt;
+    padding: 10px;
     
-    }
-    #imgplates2{
-        background-image: url(../images/Marketing/m2.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #imgplates3{
-        background-image: url(../images/Marketing/m3.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #imgplates4{
-        background-image: url(../images/Marketing/m4.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #imgplates5{
-        background-image: url(../images/Marketing/m5.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #imgplates6{
-        background-image: url(../images/Marketing/m6.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #imgplates7{
-        background-image: url(../images/Marketing/m7.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #imgplates8{
-        background-image: url(../images/Marketing/m8.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #imgplates9{
-        background-image: url(../images/Marketing/m9.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #imgplates10{
-        background-image: url(../images/Marketing/m10.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #imgplates11{
-        background-image: url(../images/Marketing/m11.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #imgplates12{
-        background-image: url(../images/Marketing/m12.png);
-        width: 200px;
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    
-    .textplate{
-        color:#f2f4f4;
-      
-        text-align: center;
-        font-weight: bold;
-    }
+}
+.plits>div>h4{
+    position: absolute;
+	top	: 60px;
+	left: 20px;
+    width: 100%;
+    color: #ffffff;
+    padding: 10px;
+    transition: opacity .5s;
+    opacity:0;
+}
+.plits>div:hover>h4{
+    position: absolute;
+	top	: 60px;
+	left: 20px;
+    width: 100%;
+    color: #ffffff;
+    padding: 10px;
+    opacity:1   ;
+
+}
+
+.plits>div>h3{
+    color: #ffffff;
+    font-size: 20pt;
+    top	: 20px;
+	left: 20px;
+    width: 100%;
+}
+/*------------------*/
     @media (max-width: 990px){
     .col-centered{
         float: none;

@@ -10,21 +10,21 @@
 .plitsEv>div{
     margin: 0%;
     padding: 0%;
-    text-align: center;
     width: 100%;
     height: 100%; 
-    background-repeat: no-repeat; 
+    
+}
+.plitsEv>div>img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%; 
     
 }
 .plitsEv{
     width: 100%;
     height: 100%;  
 }
-.plitsEv>div>h2{
-    text-align: center;
-    color: white;
-    margin: 30%; 
- }
 /*---Plits img -----*/
 #plitsImg1{
     background-image: url(../images/Evento/eve1.png);

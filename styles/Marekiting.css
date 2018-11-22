@@ -73,12 +73,11 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
-.block2>div{
-    font-size: 18px;
-}
-li{
+
+.block2>div>div>div>li{
     color: white;
     font-weight: bold;
+    font-size: 18px;
 }
 .block2{
     background-image: url(../images/Marketing/Markservic.png);

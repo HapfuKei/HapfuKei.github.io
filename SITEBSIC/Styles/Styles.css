@@ -1,0 +1,232 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747170;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+/* Navigation bar*/
+.linktop:hover {
+    text-decoration: none;
+}
+.navigation {
+    margin-bottom: 100px;
+}
+/*Top image*/
+.Slide1 {
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    right: 0;
+}
+.Topimg {
+    height: 100%;
+    width: 100%;
+ 
+    right: 0;
+}
+.textcon{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.textcon2{
+    margin-top: 25px;
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+.conimg3{
+    height: 40px;
+    width: 40px;
+   
+}
+
+/*Main text*/
+.textblock {
+
+    margin-bottom: 200px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragr {
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.P1 {
+    font-size: 100%;
+    width: 730px;
+    text-align: justify;
+    line-height: 1.1em;
+    margin-bottom: 100px;
+}
+.header {
+    font-size: 32px;
+    color: #747170;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textserv{
+    font-size: 15px;
+    text-align: justify;
+}
+.servblocks{
+    margin-bottom: 50px;
+}
+/*1 picture in main text*/
+
+.pic1{
+    width: 100%
+ }
+
+/*Pop Button*/
+.poptext {
+    color: white;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.poptext:hover {
+    color: white;
+    text-decoration: none;
+}
+.Pop {
+    background-color: #747170;
+    block-size: 8%;
+    width: 100%;
+    top: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+   
+}
+/*Google Map*/
+.map {
+    height: 234px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+/*Contacts*/
+.Open {
+    margin-right: 5px;
+    height: 16px;
+    width: 16px;
+    float: left;
+}
+/*Bottom of the page*/
+.bottom {
+    background-color: #747170;
+    margin-top: 50px;
+}
+.blockbot2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.botlinks {
+    color: white;
+ 
+
+    margin-top: 20px;
+}
+
+.botlinks:hover {
+    color: white;
+    text-decoration: none;
+}
+.follow {
+    color: white;
+    font-size: 18px;
+    margin-top:10px;
+}
+.Instagram {
+    height: 30px;
+    width: 30px;
+ 
+    margin-top: 10px
+}
+.facebook {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+   
+}
+.bottomtext {
+    margin-top: 50px;
+}
+/*Registration*/
+.firstrowreg{
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.textar{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+/*button submit*/
+.buttonsub{
+    background-color: #747170;
+    color: white;
+    height: 23px;
+    width: 100px;
+    padding-left: 10px;
+    right: 30px;
+    
+}
+.buttonsub:hover{
+    text-decoration: none;  
+}
+
+/* Texts*/
+
+h1 {
+    font-size: 14px;
+    color: #747170;
+    margin-top: 20px
+}
+h2 {
+    text-align: center;
+    height: 10px;
+    color: white;
+    margin-top: 4%;
+}
+
+h3 {
+    font-size: 13px;
+    color: white;
+    margin-bottom: 1px;
+}
+
+h4{
+    margin-top: 100px;
+}
+/*/Images/Maps/addings*/
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.conimg{
+    height: 40px;
+    width: 40px;
+  
+}
+.conimg1{
+
+    margin-top: 100px;
+}
+.conimg2{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+   
+}
+
+.open1{
+    margin-top: 50px;
+}

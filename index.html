@@ -4,13 +4,17 @@
 <head>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,8 +30,9 @@
 <body>
 
 
-<div> <!--Chat-->
-    <button id="aside1" class="open-button" onclick="openForm()">
+    <div>
+        <!--Chat-->
+        <button id="aside1" class="open-button" onclick="openForm()">
             <div class="topchat"> <img src="../hapfukei.github.io/images/Home/SVG/Chat.svg" alt="">
                 <p>Converse connosco e exponha as suas questões</p>
             </div>
@@ -36,10 +41,10 @@
         <div class="chat-popup" id="myForm">
             <form action="/action_page.php" class="form-container">
                 <button class="topchatbtn" type="button" onclick="closeForm()">
-                <div class="topchat" > <img src="../hapfukei.github.io/images/Home/SVG/Chat.svg" alt="">
-                    <p>Converse connosco e exponha as suas questões</p>
-                </div>
-            </Button>
+                    <div class="topchat"> <img src="../hapfukei.github.io/images/Home/SVG/Chat.svg" alt="">
+                        <p>Converse connosco e exponha as suas questões</p>
+                    </div>
+                </Button>
 
 
 
@@ -56,12 +61,10 @@
 
                     <div class="container1">
                         <p>Sweet! So, what do you wanna do today?</p>
-
                     </div>
 
                     <div class="container1 darker">
                         <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
-
                     </div>
                 </div>
 
@@ -75,181 +78,213 @@
             </form>
         </div>
     </div>
-    
-    
 
 
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--navbar-->
+    <nav class="navbar  navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+            aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span> <img id="Togbutton" src="images/Home/togglebar.png" alt=""></span>
+        </button>
 
-<!--navbar-->
-<nav class="navbar  navbar-expand-lg fixed-top">
-    <a class="navbar-brand" href="index.html"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
-        aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-        <span> <img id="Togbutton" src="images/Home/togglebar.png" alt=""></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarsExample05">
+        <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
-                    <a href="software.html" class="nav-link disabled " >Desenvolvimento e Software</a>
+                    <a href="software.html" class="nav-link disabled ">Desenvolvimento e Software</a>
                 </li>
                 <li class="nav-item">
-                    <a href="marketing.html" class="nav-link disabled" >Marketing</a>
+                    <a href="marketing.html" class="nav-link disabled">Marketing</a>
                 </li>
                 <li class="nav-item">
-                    <a href="desing.html" class="nav-link disabled" >Design</a>
+                    <a href="desing.html" class="nav-link disabled">Design</a>
                 </li>
                 <li class="nav-item">
-                    <a href="Eventos.html" class="nav-link disabled" >Eventos</a>
+                    <a href="Eventos.html" class="nav-link disabled">Eventos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="Agenciamento.html" class="nav-link disabled" >Agenciamento</a>
+                    <a href="Agenciamento.html" class="nav-link disabled">Agenciamento</a>
                 </li>
                 <li class="nav-item">
-                    <a href="Multimedia.html" class="nav-link disabled" >Fotografia e Vídeo</a>
+                    <a href="Multimedia.html" class="nav-link disabled">Fotografia e Vídeo</a>
                 </li>
                 <li class="nav-item">
-                    <a href="Lote59.html" class="nav-link disabled" >Lote59</a>
+                    <a href="Lote59.html" class="nav-link disabled">Lote59</a>
                 </li>
                 <li class="nav-item">
-                    <a href="consultoria.html" class="nav-link disabled" >Consultoria</a>
+                    <a href="consultoria.html" class="nav-link disabled">Consultoria</a>
                 </li>
             </ul>
         </div>
-</nav> 
+    </nav>
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Title -->
     <div class="row">
-        <!-- Title and menu -->
-        
         <img src="images/Home/HeadHome.png" class="HeaderHome" alt="">
         <img src="images/Home/HeadHomeAndroid.png" class="HeaderHome1" alt="">
     </div>
-    <hr style="background-color: #f2f4f4;">    
-<div class="block2"> 
-    <div class="container"> 
-        <div class="row">
-            <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2 offset-lg-1  offset-md-1" >
-                <a href="#">
-                    <img src="images/Home/SVG/IdentidadeVisual.svg" alt="">
-                    <h2>Identidade Visual</h2>
-                </a>
+    <hr style="background-color: #f2f4f4;">
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Plits -->
+    <div class="block2">
+        <div class="container">
+            <div class="row">
+                <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2 offset-lg-1  offset-md-1">
+                    <a href="#">
+                        <img src="images/Home/SVG/IdentidadeVisual.svg" alt="">
+                        <h2>Identidade Visual</h2>
+                    </a>
+                </div>
+                <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <a href="#">
+                        <img src="images/Home/SVG/editorial.svg" alt="">
+                        <h2>Editorial</h2>
+                    </a>
+                </div>
+                <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <a href="#">
+                        <img src="images/Home/SVG/ilustracao.svg" alt="">
+                        <h2>Ilustração</h2>
+                    </a>
+                </div>
+                <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <a href="#">
+                        <img src="images/Home/SVG/Merchandising.svg" alt="">
+                        <h2>Merchandising</h2>
+                    </a>
+                </div>
+                <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <a href="#">
+                        <img src="images/Home/SVG/webdesign.svg" alt="">
+                        <h2>Web Design</h2>
+                    </a>
+                </div>
+                <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2 offset-lg-1  offset-md-1">
+                    <a href="#">
+                        <img src="images/Home/SVG/plataformamedida.svg" alt="">
+                        <h2>Plataformas à medida</h2>
+                    </a>
+                </div>
+                <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <a href="#">
+                        <img src="images/Home/SVG/baseDados.svg" alt="">
+                        <h2>Base de dados</h2>
+                    </a>
+                </div>
+                <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <a href="#">
+                        <img src="images/Home/SVG/programasCostumizados.svg" alt="">
+                        <h2>Programas Costumizados</h2>
+                    </a>
+                </div>
+                <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <a href="#">
+                        <img src="images/Home/SVG/marketing.svg" alt="">
+                        <h2>Marketing</h2>
+                    </a>
+                </div>
+                <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                    <a href="#">
+                        <img src="images/Home/SVG/webMarketing.svg" alt="">
+                        <h2>Web Marketing</h2>
+                    </a>
+                </div>
             </div>
-            <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                <a href="#">
-                    <img src="images/Home/SVG/editorial.svg" alt="">
-                    <h2>Editorial</h2>
-                </a>
-            </div>  
-            <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                <a href="#">
-                    <img src="images/Home/SVG/ilustracao.svg" alt="">
-                    <h2>Ilustração</h2>
-                </a>
-            </div>
-            <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                <a href="#">
-                    <img src="images/Home/SVG/Merchandising.svg" alt="">
-                    <h2>Merchandising</h2>
-                </a>
-            </div>
-            <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                <a href="#">
-                    <img src="images/Home/SVG/webdesign.svg" alt="">
-                    <h2>Web Design</h2>
-                </a>
-            </div>
-            <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2 offset-lg-1  offset-md-1">
-                <a href="#">
-                    <img src="images/Home/SVG/plataformamedida.svg" alt="">
-                    <h2>Plataformas à medida</h2>
-                </a>
-            </div>
-            <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                <a href="#">
-                    <img src="images/Home/SVG/baseDados.svg" alt="">
-                    <h2>Base de dados</h2>
-                </a>
-            </div>
-            <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                <a href="#">
-                    <img src="images/Home/SVG/programasCostumizados.svg" alt="">
-                    <h2>Programas Costumizados</h2>
-                </a>
-            </div>
-            <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                <a href="#">
-                    <img src="images/Home/SVG/marketing.svg" alt="">
-                    <h2>Marketing</h2>
-                </a>
-            </div>
-            <div class="zoom col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                <a href="#">
-                    <img src="images/Home/SVG/webMarketing.svg" alt="">
-                    <h2>Web Marketing</h2>
-                </a>
-            </div>  
         </div>
     </div>
-</div>
-    <div><!-- Agencia de Design, Software e Marketing-->
+    <div>
+        <!------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!-- Agencia de Design, Software e Marketing -->
         <h1 style="padding  :5%">Agencia de Design, Software e Marketing</h1>
     </div>
-    <div class="block3"> <!--about---->
+    <div class="block3">
+        <!--about---->
         <div class="row">
             <div class="col-md-6">
-                    <p class="par1">O Lote59 é um novo conceito de serviço em que
-                            consideramos que a base de um negócio sustentável está no
-                            Marketing, Design e Software.</p>
-                        <p>Estas três áreas de cada negócio podem projectar, evidenciar
-                            e optimizar as empresas.
-                        </p>
-                        <p>O Lote59 tem ao seu dispor uma equipa especializada das
-                            diferentes áreas para assim oferecer aos nossos parceiros
-                            soluções.</p>
-                        <p>Assim, com uma postura única no mercado, queremos marcar
-                            a diferença junto dos nossos parceiros.</p>
-                        <p>Encarando cada projecto como um desafio único e trabalhá-lo
-                            com toda a dedicação.</p>
-                </div>
+                <p class="par1">O Lote59 é um novo conceito de serviço em que
+                    consideramos que a base de um negócio sustentável está no
+                    Marketing, Design e Software.</p>
+                <p>Estas três áreas de cada negócio podem projectar, evidenciar
+                    e optimizar as empresas.
+                </p>
+                <p>O Lote59 tem ao seu dispor uma equipa especializada das
+                    diferentes áreas para assim oferecer aos nossos parceiros
+                    soluções.</p>
+                <p>Assim, com uma postura única no mercado, queremos marcar
+                    a diferença junto dos nossos parceiros.</p>
+                <p>Encarando cada projecto como um desafio único e trabalhá-lo
+                    com toda a dedicação.</p>
+            </div>
             <div class="col-md-6    ">
-                <img  src="images/Home/IMGagencia.png" alt="">
+                <img src="images/Home/IMGagencia.png" alt="">
             </div>
         </div>
     </div>
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Back to top-->
 
     <div class="row backtotp">
-            <a href="#"><img onclick="return up()" src="images/Home/SVG/back_to_top.svg" alt=""></a>
+        <a href="#"><img onclick="return up()" src="images/Home/SVG/back_to_top.svg" alt=""></a>
     </div>
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- 2 buttons-->
 
-<div class="block4 row"> <!-- 2 buttons-->
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" style="word-wrap:break-word;">
-        <button >
-            <div><h1>Projetos desenvolvidos</h1></div>
-        </button>
-    </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <button>
-                        <div><h1>Pedir proposta</h1></div>
-                </button>
+    <div class="block4 row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" style="word-wrap:break-word;">
+            <button>
+                <div>
+                    <h1>Projetos desenvolvidos</h1>
+                </div>
+            </button>
         </div>
-    </div> 
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+            <button>
+                <div>
+                    <h1>Pedir proposta</h1>
+                </div>
+            </button>
+        </div>
+    </div>
     <h1 style="padding:30px;"></h1>
-    <div class="conteiner block5"><!-- cookiest etc.-->
+    <div class="conteiner block5">
+
+        <!------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!-- cookiest etc.-->
         <p><a href="#">Cookies</a></p>
         <p><a href="#">Politica de Privacidade</a></p>
         <p><a href="#">Politica de Sustentabilidade </a></p>
     </div>
     <hr>
-    <div class="block6 row" style="text-align:center;"><!-- socila and policy-->
-        <div class="col-md-2 col-sm-4 col-xs-4"><img src="images/Home/Logo.svg" alt=""></div> 
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- socila and policy-->
+    <div class="block6 row" style="text-align:center;">
+        <div class="col-md-2 col-sm-4 col-xs-4"><img src="images/Home/Logo.svg" alt=""></div>
         <div class="col-md-8 col-sm-4 col-xs-4" id="copyraight">© todos os direitos reservados</div>
-        <div class="social col-md-2 col-sm-4 col-xs-4" style="padding-left:0%;"> 
-                    <a href="#"><img src="images/Home/SocialMidia/YOUTUBE.svg" alt=""></a> 
-                    <a href="#"><img src="images/Home/SocialMidia/Linkedin.svg" alt=""></a> 
-                    <a href="#"><img src="images/Home/SocialMidia/googleplus.svg" alt=""></a>   
-                    <a href="#"><img src="images/Home/SocialMidia/instagram.svg" alt=""></a>
-                    <a href="#"><img src="images/Home/SocialMidia/facebook.svg" alt=""></a>  
+        <div class="social col-md-2 col-sm-4 col-xs-4" style="padding-left:0%;">
+            <a href="#"><img src="images/Home/SocialMidia/YOUTUBE.svg" alt=""></a>
+            <a href="#"><img src="images/Home/SocialMidia/Linkedin.svg" alt=""></a>
+            <a href="#"><img src="images/Home/SocialMidia/googleplus.svg" alt=""></a>
+            <a href="#"><img src="images/Home/SocialMidia/instagram.svg" alt=""></a>
+            <a href="#"><img src="images/Home/SocialMidia/facebook.svg" alt=""></a>
         </div>
-</div> 
+    </div>
 </body>
 
 </html>

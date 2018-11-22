@@ -50,9 +50,13 @@
 }
 
 /*----About----*/
-#about{
+.about{
     padding-bottom: 20px;
 }
 .par1{
 padding-top: 0%;
+}
+.block3>div>div{
+    padding: 0%;
+    margin: 0%;
 }

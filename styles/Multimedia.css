@@ -1,4 +1,6 @@
-
+.block3text{
+    margin-bottom: 50px;
+}
 
     .block3>div>div>p{
         font-size: 17px;
@@ -14,8 +16,6 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
-        
-    
     }
     .webmarktitle{
         padding: 0%;
@@ -138,9 +138,6 @@
         padding-top:10px;   
         margin-bottom: 100px;
         
-    }
-    .block3text{
-        margin-bottom: 100px;
     }
     .col-centered1{
         float: none;

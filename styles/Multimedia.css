@@ -1,146 +1,91 @@
-.block3text{
+/*--about--*/
+.block3text {
     margin-bottom: 50px;
 }
 
-    .block3>div>div>p{
-        font-size: 17px;
-        margin-top: 5%;
-        padding-left: 0%;
-        padding-right: 0;
-        padding-bottom: 1%;
-        margin-bottom: 0%;
-    }
-    .block3>div{
-        padding: 0%;
-        background-color: white;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-    }
-    .webmarktitle{
-        padding: 0%;
-        background-color: #f2f4f4; 
-    }
-    .block3all{
-        background-color: #f2f4f4; 
-    
-    }
-    /* block3 cols*/
-    #blockmarkmenu{
-        padding: 0%;
-    }
-    
-    .blockplates1{
-        padding-left: 0%;
-        padding-right: 0%;
-    
-    }.blockplates2{
-        padding-left: 0%;
-        padding-right: 0%;
-        
-    }.blockplates3{
-        padding-left: 0%;
-        padding-right: 0%;
-        
-    }
-    
-   /*  PLITS  */
-.plits>div{
+.block3>div>div>p {
+    font-size: 17px;
+    margin-top: 5%;
+    padding-left: 0%;
+    padding-right: 0;
+    padding-bottom: 1%;
+    margin-bottom: 0%;
+}
+
+.block3>div {
+    padding: 0%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.webmarktitle {
+    padding: 0%;
+    background-color: #f2f4f4;
+}
+
+.block3all {
+    background-color: #f2f4f4;
+
+}
+
+/*--PLITS--*/
+.plits>div {
     padding: 0%;
     margin: 0%;
 }
-.plits>div>img{
+
+.plits>div>img {
     width: 100%;
     height: auto;
-    opacity:0.8;
+    opacity: 0.8;
 
 }
-.plits>div>h2{
+
+.plits>div>h2 {
     position: absolute;
-	top	: 20px;
-	left: 20px;
+    top: 20px;
+    left: 20px;
     width: 100%;
     color: #ffffff;
     font-size: 30pt;
     padding: 10px;
-    
+
 }
-.plits>div>h4{
+
+.plits>div>h4 {
     position: absolute;
-	top	: 60px;
-	left: 20px;
+    top: 60px;
+    left: 20px;
     width: 100%;
     color: #ffffff;
     padding: 10px;
     transition: opacity .5s;
-    opacity:0;
+    opacity: 0;
 }
-.plits>div:hover>h4{
+
+.plits>div:hover>h4 {
     position: absolute;
-	top	: 60px;
-	left: 20px;
+    top: 60px;
+    left: 20px;
     width: 100%;
     color: #ffffff;
     padding: 10px;
-    opacity:1   ;
+    opacity: 1;
 
 }
 
-.plits>div>h3{
+.plits>div>h3 {
     color: #ffffff;
     font-size: 20pt;
-    top	: 20px;
-	left: 20px;
+    top: 20px;
+    left: 20px;
     width: 100%;
 }
-/*------------------*/
-    @media (max-width: 990px){
-    .col-centered{
-        float: none;
-        margin: 0 auto;
-        font-size: 20px;
-        }
-    }
-    .adwtext{
-        font-size: 13px;
-        color: white;
-    }
-    .bottomplatestext{
-        background-color: #f2f4f4;
-    }
-    .bottomplatestext>div{
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-    .blockplates{
-        background-color: #f2f4f4;
-    }
-    .allblock4plates{
-        background-color: #f2f4f4; 
-    }
-    .zoom{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .block2{
-        padding-bottom: 40px;
-        padding-top: 40px;
-    }
-    .block2>div{
-        font-size: 18px;
-    }
 
-    .block2{
-        background-image: url(../images/Marketing/Markservic.png);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-size:cover;
-        padding-top:10px;   
-        margin-bottom: 100px;
-        
-    }
-    .col-centered1{
-        float: none;
-        margin: 0 auto;
-        }
-    
+/*--1 buttons--*/
+.col-centered1 {
+    float: none;
+    margin: 0 auto;
+}

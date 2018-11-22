@@ -21,10 +21,8 @@
     text-align: center;  
     position: relative;
     padding-top: 8%;
-}  
- .block2>div>div>div{
     text-decoration: none;
-}
+}  
 .block2>div>div>div>img{
     padding-top:5%;
     width: 100%;
@@ -56,6 +54,7 @@
 .par1{
 padding-top: 0%;
 }
+/*-- about --*/
 .block3>div>div{
     padding: 0%;
     margin: 0%;

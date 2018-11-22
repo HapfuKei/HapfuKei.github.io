@@ -1,3 +1,4 @@
+/*--about--*/
 .block3>div>div>p{
     font-size: 17px;
     margin-top: 5%;
@@ -62,52 +63,5 @@
     top	: 20px;
 	left: 20px;
     width: 100%;
-}
-
-/* ------------*/
-@media (max-width: 990px){
-.col-centered{
-    float: none;
-    margin: 0 auto;
-    font-size: 20px;
-    }
-}
-.adwtext{
-    font-size: 13px;
-    color: white;
-}
-.bottomplatestext{
-    background-color: #f2f4f4;
-}
-.bottomplatestext>div{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.blockplates{
-    background-color: white;
-}
-.allblock4plates{
-    background-color: white; 
-}
-.zoom{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.block2>div{
-    font-size: 18px;
-}
-.block2>div>div>div>li{
-    color: white;
-    font-weight: bold;
-}
-.block2{
-    background-image: url(../images/Marketing/Markservic.png); 
-    padding-top:10px;   
-    margin-bottom: 100px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    width: 100%;
-    
-    
 }
 

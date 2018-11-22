@@ -42,22 +42,7 @@
     background-image: url(../images/Evento/eve4.png);
     background-size: 100%;
 }
-/*------------------*/
-@media (max-width: 990px){
-    .col-centered{
-        float: none;
-        margin: 0 auto;
-        font-size: 20px;
-        visibility: visible;
-        }
-    }
-    .adwtext{
-        font-size: 13px;
-        color: white;
-    }
-    .allblock4plates>div>div{
-        margin-bottom: 100px
-    }
+/*--2 buttons--*/
     .block4{
         margin-top: 100px;
         margin-bottom: 100px;

@@ -1,3 +1,8 @@
+/*-- main --*/
+h1{
+    margin-bottom: 0%;
+}
+/*-- vegetables --*/
 .vegetables{
     background-image: url(../images/Consultoria/vantagen_background.png);
     background-repeat: no-repeat;
@@ -27,7 +32,4 @@
 .par1{
 padding-top: 0%;
 margin-top: 0%;
-}
-h1{
-    margin-bottom: 0%;
 }

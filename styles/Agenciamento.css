@@ -1,3 +1,4 @@
+/*-- about--*/
 .block3>div>div>p{
     font-size: 17px;
     margin-top: 5%;
@@ -6,9 +7,11 @@
     padding-bottom: 1%;
     margin-bottom: 0%;
 }
+/*-- about --*/
 .block3text{
     margin-bottom: 50px;
 }
+/*-- 2 buttons -- */
 .block4{
     margin-bottom: 100px;
     margin-top: 100px;

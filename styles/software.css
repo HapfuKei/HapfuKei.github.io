@@ -1,3 +1,8 @@
+/*--main--*/
+h1{
+    size: 15pt;
+}
+/*--about--*/
 .about{
     background-color: #f2f4f4   ; 
     padding: 3%;
@@ -9,9 +14,7 @@
 .about>div>div>p{
     margin: 3%;
 }
-h1{
-    size: 15pt;
-}
+/*--plits--*/
 .plitsSoftware>div>div>h1{
     text-align: center;
 }

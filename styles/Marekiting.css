@@ -64,4 +64,36 @@
 	left: 20px;
     width: 100%;
 }
-
+/*-- li list --*/
+.block2{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.block2>div>div>div{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.block2>div{
+    font-size: 18px;
+}
+li{
+    color: white;
+    font-weight: bold;
+}
+.block2{
+    background-image: url(../images/Marketing/Markservic.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top:10px;   
+    margin-bottom: 100px;
+    
+}
+/*-- ??? --*/
+.bottomplatestext{
+    background-color: #f2f4f4;
+}
+.bottomplatestext>div{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

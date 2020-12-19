@@ -41,7 +41,7 @@
     transition: opacity .5s;
     opacity:0;
 }
-.block2>div>div>div>h3>p{
+.block2>div>div>div>h3>div{
     font-size: 14pt;
     color:#7a9095;
     text-align: center;

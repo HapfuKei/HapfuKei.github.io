@@ -65,17 +65,17 @@ hr {
     margin-left: 0px;
 }
 
-.nav.navbar-nav>li>a>b {
+.nav.navbar-nav > li > a > b {
     color: #ffffff;
 }
 
-.nav.navbar-nav>li>a:focus,
-.nav.navbar-nav>li>a:hover {
+.nav.navbar-nav > li > a:focus,
+.nav.navbar-nav > li > a:hover {
     background-color: transparent;
 }
 
 .navbar-brand {
-    background-image: url(../images/Home/Logo.svg);
+    background-image: url(../images/Home/Logo.png);
     min-width: 150px;
     min-height: 70px;
     background-position: center;
@@ -118,7 +118,7 @@ hr {
 
 /*----Plits----*/
 
-.block2>div>div>div>a>h2 {
+.block2 > div > div > div > a > h2 {
     font-size: 15pt;
     color: #ffffff;
     width: auto;
@@ -134,16 +134,16 @@ hr {
 
 }
 
-.block2>div>div>div {
+.block2 > div > div > div {
     text-align: center;
     position: relative;
 }
 
-.block2>div>Div>div>a {
+.block2 > div > Div > div > a {
     text-decoration: none;
 }
 
-.block2>div>div>div>a>img {
+.block2 > div > div > div > a > img {
     padding-top: 5%;
     width: auto;
     height: auto;
@@ -167,7 +167,7 @@ hr {
     margin-top: 10%;
 }
 
-.block3>div>div>p {
+.block3 > div > div > p {
     font-size: 17px;
     margin-top: 5%;
     padding-left: 20%;
@@ -176,7 +176,7 @@ hr {
     margin-bottom: 0%;
 }
 
-.block3>div {
+.block3 > div {
     padding: 0%;
     background-color: #fff;
     display: flex;
@@ -184,7 +184,7 @@ hr {
 
 }
 
-.block3>div>div>img {
+.block3 > div > div > img {
     width: 100%;
     height: 100%;
 }
@@ -199,18 +199,18 @@ hr {
     align-items: center;
 }
 
-.block4>div {
+.block4 > div {
     padding-bottom: 15px;
 }
 
-.block4>div>button {
+.block4 > div > button {
     border: 3px solid rgb(255, 255, 255);
     background: none;
     border-radius: 4px;
     width: 100%;
 }
 
-.block4>div>button>div>h1 {
+.block4 > div > button > div > h1 {
     text-align: center;
     color: white;
 }
@@ -222,26 +222,26 @@ hr {
     padding-top: 25px;
 }
 
-.block6>div {
+.block6 > div {
     color: #7a9095;
 }
 
-.block6>div>div {
+.block6 > div > div {
     padding-top: 0%;
 }
 
-.block6>div>img {
+.block6 > div > img {
     max-width: 150px;
     max-height: 70px;
 }
 
-.social>a {
+.social > a {
     text-decoration: none;
     padding: 5px;
     padding-top: 25px;
 }
 
-.social>a>img {
+.social > a > img {
     width: 20px;
     height: 20px;
 }
@@ -250,6 +250,7 @@ hr {
     padding-top: 1%;
     padding-top: 1%;
 }
+
 /*-- cookeis etc. --*/
 .block5 {
     background-color: #2a2f30;
@@ -259,17 +260,18 @@ hr {
     padding-top: 2%;
 }
 
-.block5>p>a {
+.block5 > p > a {
     color: rgb(212, 209, 209);
     font-size: 10pt;
     text-decoration: none;
 }
 
-.block5>p {
+.block5 > p {
     height: 20px;
     padding: 0%;
     margin: 0;
 }
+
 #copyraight {
     padding: 2%;
     text-align: left;
@@ -292,8 +294,6 @@ hr {
     padding: 10px;
     margin: 10px 0;
     max-width: 200px;
-    float: left;
-
 }
 
 .allmessages {
@@ -321,14 +321,14 @@ hr {
     cursor: pointer;
 }
 
-.topchat>p {
+.topchat > p {
     margin-right: 100px;
     margin-left: 30px;
     padding-top: 20px;
     font-size: 13px;
 }
 
-.topchat>img {
+.topchat > img {
     width: 50px;
     height: 50px;
     float: right;
@@ -336,7 +336,7 @@ hr {
     margin-top: 10px;
 }
 
-.allmessages>div>p {
+.allmessages > div > p {
     font-size: 13px;
 }
 
@@ -344,14 +344,6 @@ hr {
 .darker {
     border-color: #ccc;
     background-color: #ddd;
-    float: right;
-}
-
-/* Clear floats */
-.container::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 /*----Chat----*/
@@ -371,7 +363,7 @@ hr {
     border: 2px solid #7a9095;
 }
 
-.open-button>div>p {
+.open-button > div > p {
     text-align: left;
     margin-left: 0;
 }
@@ -450,7 +442,7 @@ hr {
 }
 
 /*--back to top---*/
-.backtotp>a>img {
+.backtotp > a > img {
     height: 100px;
     width: 20px;
 
